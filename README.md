@@ -2,10 +2,6 @@
 
 Videojs Basic Plugin empty by generator-videojs-plugin
 
-## Table of Contents
-
-<!-- START doctoc -->
-<!-- END doctoc -->
 ## Installation
 
 ```sh
