@@ -1,7 +1,7 @@
 {
   "name": "videojs-basic",
   "version": "0.0.0",
-  "description": " Videojs Basic Plugin empty by generator-videojs-plugin",
+  "description": "Videojs Basic Plugin empty by generator-videojs-plugin",
   "main": "dist/videojs-basic.cjs.js",
   "module": "dist/videojs-basic.es.js",
   "generator-videojs-plugin": {
@@ -65,20 +65,7 @@
     "test/"
   ],
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "vjsstandard --fix",
-      "git add"
-    ],
-    "README.md": [
-      "doctoc --notitle",
-      "git add"
-    ]
+    "hooks": {}
   },
   "dependencies": {
     "global": "^4.3.2",
